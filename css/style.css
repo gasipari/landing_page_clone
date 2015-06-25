@@ -1,4 +1,25 @@
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
 /* Custom Styles */
 
 body {
@@ -7,9 +28,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-div {
+/*div {
   border: 1px solid Chocolate;
-}
+}*/
 
 .content {
   margin: 0 auto;
@@ -91,7 +112,7 @@ div {
   color: #fff;
   font-size: 1.125rem;
   display: block;
-  margin: 0 auto;
+  margin: 1.25rem auto;
 }
 
 .big-button:hover {
@@ -137,16 +158,17 @@ div {
   background-color: #fff;
   padding-bottom: 9.375rem;
   text-align: center;
+  overflow: auto;
 }
 
 .social h5 {
   font-weight: 500;
 }
 
-.social .icons > li {
+.social .icons li {
   border-radius: 1.25rem;
   width: 2.5rem;
-  /*height: 2.5rem;*/
+  height: 2.5rem;
   display: inline-block;
   border: 1px solid #eaebec;
   margin: 1.25rem 5px;
