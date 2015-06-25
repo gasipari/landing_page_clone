@@ -1,11 +1,5 @@
 
 /* Custom Styles */
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 body {
   background-color: LightGray;
@@ -27,6 +21,9 @@ div {
 .top-navigation {
   background-color: #fff;
   letter-spacing: 0.03em;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 .top-navigation > .content {
   height: 70px;
