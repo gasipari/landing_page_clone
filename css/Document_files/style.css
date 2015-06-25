@@ -67,7 +67,7 @@ div {
   overflow: auto;
 }
 .introduction h1, .introduction h3 {
-  color: #fff;
+  color: white;
   text-align: center;
   font-weight: 300;
 }
@@ -91,7 +91,7 @@ div {
   border-radius: 4px;
   text-shadow: none;
   padding: 1rem 1.125rem;
-  color: #fff;
+  color: white;
   font-size: 1.125rem;
   display: block;
   margin: 0 auto;
@@ -105,28 +105,10 @@ div {
 
 /* Three-Icon Section */
 .cases {
-  background-color: #fff;
-  padding-bottom: 5rem;
-  overflow: hidden;
+  
 }
 
-.cases .content {
-  margin-top: 7.875rem;
-  padding: none;
-  color: #1d1e21;
-  text-align: center;
-}
 
-.cases h2 {
-  font-size: 2.75rem;
-  margin: 1.625rem 0 3.125rem;
-  font-weight: 300;
-}
-
-.cases .devices > li{
-  width: 33.3333333%;
-  float: left;
-}
 
 
 
