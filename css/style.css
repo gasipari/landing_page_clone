@@ -139,6 +139,10 @@ div {
   text-align: center;
 }
 
+.social h5 {
+  font-weight: 500;
+}
+
 .social .icons > li {
   border-radius: 1.25rem;
   width: 2.5rem;
@@ -172,8 +176,11 @@ div {
   margin: 1.313rem 0;
 }
 
-
-
+.social .copyright {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
 
 
 
