@@ -17,7 +17,7 @@ div {
   min-width: 37.5rem;
 }
 
-/* Navigation Section */
+/* Navigation section */
 .top-navigation {
   background-color: #fff;
   letter-spacing: 0.03em;
@@ -54,7 +54,7 @@ div {
   cursor: pointer;
   color: #333333;
 }
-/* Introduction Section */
+/* Introduction section */
 .introduction {
   background-image: url('../img/first-background.jpg');
   background-position: center bottom;
@@ -100,7 +100,7 @@ div {
   cursor: pointer;
 }
 
-/* Three-Icon Section */
+/* Three-Icon section */
 .cases {
   background-color: #fff;
   padding-bottom: 5rem;
@@ -123,7 +123,78 @@ div {
 .cases .devices > li{
   width: 33.3333333%;
   float: left;
+  display: inline-block;
 }
+
+.cases .devices h3{
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+
+/* Footer section */
+.social {
+  background-color: #fff;
+  padding-bottom: 9.375rem;
+  text-align: center;
+}
+
+.social .icons > li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  /*height: 2.5rem;*/
+  display: inline-block;
+  border: 1px solid #eaebec;
+  margin: 1.25rem 5px;
+  padding: 0.625rem 0;
+  text-align: center;
+}
+
+.social .icons > li:hover {
+  cursor: pointer;
+}
+
+.social .fa-twitter {
+  color: #55acee;
+}
+
+.social .fa-facebook {
+  color: #4c66a4;
+}
+
+.social .fa-instagram {
+  color: #3f729b;
+}
+
+.social hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
